@@ -24,11 +24,7 @@ const questions = [
     choices: ["Atlantic", "Indian", "Southern", "Pacific"],
     answer: 3
   },
-  {
-    question: "What is the currency used in Japan?",
-    choices: ["Yen", "Dollar", "Euro", "Won"],
-    answer: 0
-  }
+
 ];
 
 let currentQuestion = 0;
