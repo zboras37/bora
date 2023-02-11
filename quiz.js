@@ -48,7 +48,7 @@ choices.addEventListener("click", function(event) {
     if (currentQuestion < questions.length) {
       renderQuestion();
     } else {
-      quizContainer.innerHTML = "You've completed the quiz!";
+      quizContainer.innerHTML = "You've completed the quiz! <a href='https://google.com'>Click here to see your results</a>";
     }
   } else {
     result.innerHTML = "Incorrect.";
